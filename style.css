@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #555086;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+#maus_tratos{
+    position: relative;
+    left: 1250px;
+    padding: 10px;
+    background-color: #7973B4;
+    color: white    ;
+    border-radius: 10px;
+}
+#inicio{
+    padding: 10px;
+    color: white;
+}
+
+h2{
+    color: #555086;
+}
+
+#logo_acapra{
+    margin-left: 100px;
+}
+
+#quem_somos{
+    position: relative;
+    width: 600px;
+    left: 100px;
+}
+
+#apresentacao{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C7C6C6;
+}
