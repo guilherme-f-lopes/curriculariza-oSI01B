@@ -8,18 +8,22 @@
     padding-bottom: 30px;
     padding-top: 20px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #maus_tratos{
     position: relative;
-    left: 1250px;
     padding: 10px;
     background-color: #7973B4;
     color: white    ;
     border-radius: 10px;
+    margin-right: 20px;
 }
 #inicio{
     padding: 10px;
     color: white;
+    margin-left: 20px;
 }
 
 h2{
@@ -27,19 +31,30 @@ h2{
 }
 
 #logo_acapra{
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 #quem_somos{
     position: relative;
     width: 600px;
-    left: 100px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#missao{
+    width: 600px;
+    margin-left: 15%;
 }
 
 #apresentacao{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #C7C6C6;
+}
+#textos_apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
