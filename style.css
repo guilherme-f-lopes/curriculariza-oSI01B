@@ -25,6 +25,9 @@
     color: white;
     margin-left: 20px;
 }
+h1{
+    color: #2b2c52;
+}
 
 h2{
     color: #555086;
@@ -57,4 +60,23 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+}
+#info-maus-tratos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+    margin: 20px;
+    border-radius: 15px;
 }
