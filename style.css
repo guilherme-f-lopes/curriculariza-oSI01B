@@ -30,13 +30,22 @@
     background-color: #5a548c;
 }
 
+nav {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 #inicio {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: relative;
     padding: 10px;
     background-color: #7973B4;
     color: white;
     border-radius: 10px;
-    margin-right: 20px;
+
 }
 
 #inicio:hover {
@@ -62,6 +71,7 @@ h1 {
 
 h2 {
     color: #555086;
+    text-align: center;
 }
 
 #logo_acapra {
@@ -91,7 +101,7 @@ h2 {
 #textos_apresentacao {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
 }
 
 #header {
@@ -155,4 +165,59 @@ form {
     margin-left: 40%;
     margin-right: 40%;
 
+}
+
+#numeros_da_acapra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+#contato-formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#noticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#finais-felizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#doacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px;
 }
